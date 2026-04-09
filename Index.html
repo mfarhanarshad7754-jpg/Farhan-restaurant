@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Farhan Restaurant</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #020617;
+}
+nav h1 {
+    color: #facc15;
+}
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    height: 90vh;
+    background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero h2 {
+    font-size: 50px;
+}
+.hero span {
+    color: #facc15;
+}
+
+/* Menu */
+.menu {
+    padding: 50px;
+    text-align: center;
+}
+.menu h2 {
+    color: #facc15;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background: #1e293b;
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Contact */
+.contact {
+    padding: 50px;
+    text-align: center;
+}
+.contact input, .contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+button {
+    background: #facc15;
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #020617;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h1>Farhan Restaurant</h1>
+    <div>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Contact</a>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div>
+        <h2>Welcome to <span>Farhan Restaurant</span></h2>
+        <p>Delicious Food | Fast Delivery | Premium Taste</p>
+    </div>
+</section>
+
+<!-- Menu Section -->
+<section class="menu">
+    <h2>Our Menu</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1601924928583-98a6d1c6c73f">
+            <h3>Pizza</h3>
+            <p>Rs. 1200</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1550547660-d9450f859349">
+            <h3>Burger</h3>
+            <p>Rs. 500</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d">
+            <h3>Fries</h3>
+            <p>Rs. 300</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="contact">
+    <h2>Contact Us</h2>
+    <input type="text" placeholder="Your Name"><br>
+    <input type="text" placeholder="Phone (03227362137)"><br>
+    <textarea placeholder="Message"></textarea><br>
+    <button>Send Message</button>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Farhan Restaurant | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
